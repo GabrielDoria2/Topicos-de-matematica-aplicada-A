@@ -1,3 +1,8 @@
+// UFRJ - Universidade Federal do Rio de Janeiro
+// IM -Instituto de Matemática
+// DMA - Departamento de Matemática Aplicada
+// Aluno: Gabriel Pedrosa Dória
+// DRE 119065076
 #include<stdio.h>
 #include<math.h>
 
