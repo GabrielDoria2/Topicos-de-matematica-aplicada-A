@@ -1,7 +1,10 @@
-# Tópicos de matemática aplicada A
-# Rio de Janeiro, 19 de março de 2019
-# Gabriel Pedrosa Dória
-
+'''
+UFRJ - Universidade Federal do Rio de Janeiro
+IM -Instituto de Matemática
+DMA - Departamento de Matemática Aplicada
+Aluno: Gabriel Pedrosa Dória
+ DRE 119065076
+'''
 import math
 A, B, C = input().split()
 A = float(A)
