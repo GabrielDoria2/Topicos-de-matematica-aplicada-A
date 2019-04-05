@@ -1,8 +1,10 @@
-# Tópicos de matemática aplicada A
-# Rio de Janeiro, 25 de março de 2019
-# Gabriel Pedrosa Dória
-# DRE: 119065076
-
+'''
+UFRJ - Universidade Federal do Rio de Janeiro
+IM -Instituto de Matemática
+DMA - Departamento de Matemática Aplicada
+Aluno: Gabriel Pedrosa Dória
+ DRE 119065076
+'''
 def fibonacci(n):
     if(n==1):
         return 0
