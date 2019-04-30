@@ -16,16 +16,31 @@ def lendomatriz():
     for i in range(m):
         linha = []
         for j in range(n):
-            linha += [int(numeros[2+i*m + j])]
-            mat += [linha]
+            try:
+                linha += [float(numeros[2+i*m + j])]
+            except ValueError as err:
+             print(err)
+             linha += ["NaN"]
+        mat += [linha]
 
     print(mat)
 
 def printmatriz():
     for i in range(m):
         for j in range(n):
-            print(mat[i][j], end=" ")
+            print(mat[i][j], end = " ")
         print()
+
+def printmatrizalinhada():
+    print("+","-"*17,"+","-"*17,"+","-"*17,"+")
+    for i in range(m):
+        print("|",end=" ")
+        for j in range(n):
+            print(" {0:^15f} ".format ( mat[i][j]), end = " | ")
+        print() #pula para próxima linha
+        print("+","-"*17,"+","-"*17,"+","-"*17,"+")
+
 
 lendomatriz()
 printmatriz()
+printmatrizalinhada()
