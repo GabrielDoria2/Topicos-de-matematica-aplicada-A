@@ -5,8 +5,12 @@
 #
 # TMAA - MAE 353 - Programacao I
 #
-# Gabriel Pedrosa Dória
+#Gabriel Pedrosa Dória
 #DRE: 119065076
+#
+#Diego Rodrigues Nascimento
+#119106458
+#
 # 12 de maio de 2019
 #----------------------------------------------------------------------------
  
